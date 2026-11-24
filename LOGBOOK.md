@@ -136,7 +136,7 @@ RF-DETR turun paling sedikit karena DINOv2 dilatih dengan data yang sangat berag
 - H4: `domain_shift.csv` (test asli vs test sendiri vs kondisi sulit).
 - Jika hipotesis salah, penjelasannya ditulis di laporan dengan bukti (per kelas, kurva loss, jumlah langkah, overlay).
 
-### Lampiran kelas — diisi 24 November 2026, ±19:10 WIB, setelah audit dan sebelum training
+### Lampiran kelas — diisi 24 November 2026, ±18:55 WIB, setelah audit dan sebelum training (commit `fe16b12`, 18:58)
 
 Sumber: audit notebook pada ekspor COCO Segmentation yang diunggah ke Kaggle (folder lokal
 `panoptic-indoor-segmentation.v1i.coco-segmentation`). Jumlah split 397 / 166 / 359 sama dengan halaman v5; label

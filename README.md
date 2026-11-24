@@ -52,19 +52,19 @@ Pilih salah satu:
 3. *Settings*: **Accelerator = GPU T4 x2** atau **GPU P100** (notebook memakai 1 GPU), **Internet = On**.
 4. *Add Input* → dataset dari Langkah 1 (jika memakai pilihan A).
 
-## Langkah 3 — Sesi interaktif: audit (tanpa training)
+## Langkah 3 + 4 — Run All pertama: audit dan smoke test (status sekarang)
 
-Sakelar di sel **0. Pengaturan**: `RUN_INSTALL = True`, `RUN_PREPARE = True`, sisanya `False`. Jalankan semua sel.
+Dataset sudah diunggah ke Kaggle di `/kaggle/input/datasets/seifeldeinakbar/panoptic-indoor` (berisi `train/`,
+`valid/`, `test/`), dan path ini sudah diisi di `DATA_SOURCE`. Audit sudah diverifikasi di laptop dan lampiran kelas
+sudah masuk `LOGBOOK.md` (commit `fe16b12`). Sakelar saat ini: `RUN_INSTALL`, `RUN_PREPARE`, `RUN_SMOKE` = `True`,
+sisanya `False`. Jadi **Run All** = instalasi → audit → smoke test 2 epoch per model pada 25% data.
 
-1. Periksa output audit: jumlah gambar per split (harus 397 / 166 / 359), kelas root yang dibuang, kelas langka/kecil/
-   besar/tipis, dan kelas yang hilang di subset 25%.
-2. Unduh `/kaggle/working/hasil/audit.json` dan `statistik_kelas.csv` (panel *Output*) → simpan di `hasil/`.
-3. Isi tabel **"Lampiran kelas"** di `LOGBOOK.md` dengan nama kelas asli.
-4. **Commit** (`git commit -m "Audit dataset v5 dan lampiran kelas hipotesis"`).
+1. Klik *Run All* (atau *Save Version → Save & Run All*).
+2. Periksa output audit: harus 397 / 166 / 359 gambar, 74 kelas, 4 gambar diperbaiki orientasinya, `Masalah: []`.
+3. Di akhir smoke test tercetak waktu per model dan **perkiraan total 9 run**. Unduh `hasil_smoke.zip` dari *Output*,
+   ekstrak ke repo, lalu commit.
 
-## Langkah 4 — Smoke test
-
-`HIPOTESIS_SUDAH_DICOMMIT = True`, `RUN_SMOKE = True`. Jalankan. Setiap model dilatih 2 epoch pada 25% data.
+Catatan smoke test:
 
 - Catat waktu per epoch dan VRAM puncak (`hasil/catatan_waktu_gpu.csv`).
 - Jika OOM, kecilkan `batch` di `MODEL_CFG` (sel 1) dan ulangi. Gunakan batch yang sama untuk ketiga proporsi.
@@ -76,7 +76,8 @@ Sakelar di sel **0. Pengaturan**: `RUN_INSTALL = True`, `RUN_PREPARE = True`, si
 
 Untuk tiap model (agar muat dalam batas sesi Kaggle 12 jam):
 
-1. `RUN_SMOKE = False`, `RUN_TRAIN = True`, `TRAIN_MODELS = ['yolo']` (lalu `['maskrcnn']`, lalu `['rfdetr']`).
+1. `RUN_SMOKE = False`, `RUN_TRAIN = True`. Jika perkiraan total dari smoke test < 10 jam, ketiga model boleh dalam
+   satu sesi; jika lebih, isi `TRAIN_MODELS = ['yolo']` (lalu `['maskrcnn']`, lalu `['rfdetr']`).
 2. *Save Version → Save & Run All (Commit)*. Laptop boleh dimatikan.
 3. Setelah selesai, buka versi tersebut → *Output* → unduh `hasil/` dan file `runs/*/run.json` serta log.
 4. Isi logbook (waktu, kendala), lalu commit log tersebut.
