@@ -1,0 +1,17 @@
+# data, bobot, dan folder kerja lokal (terlalu besar untuk Git)
+kerja/
+panoptic-indoor-segmentation*/
+*.pt
+*.pth
+*.ckpt
+*.zip
+predictions.json.gz
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# rahasia
+.env
+kaggle.json
