@@ -1,0 +1,56 @@
+{
+ "model": "rfdetr",
+ "percent": 50,
+ "tag": "t4_v5",
+ "epochs": 50,
+ "seed": 42,
+ "nrp": "5054241032",
+ "config": {
+  "variant": "RFDETRSegMedium",
+  "batch": 4,
+  "grad_accum": 4,
+  "lr": 0.0001,
+  "imgsz": 432,
+  "augment": "default RF-DETR",
+  "workers": 2
+ },
+ "n_train_images": 198,
+ "lingkungan": {
+  "python": "3.13.16",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "kaggle": true,
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "cuda": "13.0",
+  "gpu": "Tesla T4",
+  "vram_gb": 15.6,
+  "ultralytics": "8.4.66",
+  "rfdetr": "1.12.1",
+  "pycocotools": "2.0.11",
+  "transformers": "5.20.2"
+ },
+ "mulai": "2026-11-24T17:13:03",
+ "status": "selesai",
+ "protocol": "kaggle-t4-v5-1",
+ "dataset_hashes": {
+  "train": "dc7e46ec167237c63ce4e87591aa2aea54316e928a6d84cbac25e0082f887c7f",
+  "valid": "c0dbcb99d5179f0d8fff6e100901ef980d4ca72fa36402ac1a4a4b91cafd3091",
+  "test": "a339c28a8ac071efe3236bd007d54d6b77274bf39141e94eba9f8065b60cadcb"
+ },
+ "checkpoint": "/kaggle/working/runs/rfdetr_p50_t4_v5/rfdetr/checkpoint_best_total.pth",
+ "val_mask_mAP50_95_seleksi": 0.2330998171800339,
+ "kandidat_checkpoint": {
+  "checkpoint_best_total.pth": 0.2330998171800339,
+  "checkpoint_best_ema.pth": 0.2330998171800339
+ },
+ "catatan_seleksi": "evaluator bersama pada validation",
+ "epochs_completed": 50,
+ "iterasi_per_epoch": 50,
+ "langkah_optimizer_per_epoch": 13,
+ "log": "/kaggle/working/runs/rfdetr_p50_t4_v5/rfdetr/metrics.csv",
+ "checkpoint_relative": "rfdetr/checkpoint_best_total.pth",
+ "checkpoint_dihapus_mb": 1428.2,
+ "selesai": "2026-11-24T17:49:20",
+ "elapsed_seconds": 2177.1,
+ "vram_puncak_gb": 7.41
+}

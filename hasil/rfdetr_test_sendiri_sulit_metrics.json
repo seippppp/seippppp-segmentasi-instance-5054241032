@@ -1,0 +1,395 @@
+{
+ "images": 10,
+ "detections": 1000,
+ "kelas_dievaluasi": 30,
+ "score_threshold": 0.001,
+ "max_dets": 100,
+ "mask_threshold": 0.5,
+ "ms_per_image_mean": 90.5659531999845,
+ "ms_per_image_median": 86.75504549978541,
+ "prediksi_kelas_tidak_ada_di_gt": [],
+ "mask_mAP50_95": 0.22443991455210724,
+ "mask_mAP50": 0.34121715353951465,
+ "mask_mAP75": 0.23203477767592715,
+ "mask_mAP_small": null,
+ "mask_mAP_medium": 0.25844545993060836,
+ "mask_mAP_large": 0.27507944115621513,
+ "AR1": 0.16648412698412696,
+ "AR10": 0.3515873015873016,
+ "AR100": 0.3515873015873016,
+ "AR_small": null,
+ "AR_medium": 0.3076923076923077,
+ "AR_large": 0.39819708948668225,
+ "per_class": {
+  "backpack": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 2
+  },
+  "book": {
+   "AP50_95": 0.46133663366336636,
+   "AP50": 0.8316831683168316,
+   "instances": 7
+  },
+  "bottle": {
+   "AP50_95": 0.16831683168316833,
+   "AP50": 0.16831683168316833,
+   "instances": 3
+  },
+  "box": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 1
+  },
+  "cabinet-merged": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 2
+  },
+  "cell phone": {
+   "AP50_95": 0.7514851485148513,
+   "AP50": 0.834983498349835,
+   "instances": 2
+  },
+  "chair": {
+   "AP50_95": 0.25666116611661166,
+   "AP50": 0.6501610875373252,
+   "instances": 21
+  },
+  "couch": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 3
+  },
+  "cup": {
+   "AP50_95": 0.3346534653465347,
+   "AP50": 0.6633663366336634,
+   "instances": 3
+  },
+  "curtain": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 3
+  },
+  "door-stuff": {
+   "AP50_95": 0.900990099009901,
+   "AP50": 1.0,
+   "instances": 2
+  },
+  "fire-extinguisher": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 2
+  },
+  "floor-other-merged": {
+   "AP50_95": 0.009137629684646691,
+   "AP50": 0.015158228387382625,
+   "instances": 4
+  },
+  "floor-wood": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 1
+  },
+  "keyboard": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 3
+  },
+  "laptop": {
+   "AP50_95": 0.4311881188118812,
+   "AP50": 0.47595473833097596,
+   "instances": 7
+  },
+  "mouse": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 2
+  },
+  "paper": {
+   "AP50_95": 0.2361836183618362,
+   "AP50": 0.7551755175517552,
+   "instances": 3
+  },
+  "person": {
+   "AP50_95": 0.18979255068363976,
+   "AP50": 0.5,
+   "instances": 3
+  },
+  "plug": {
+   "AP50_95": 0.3933993399339934,
+   "AP50": 0.7623762376237624,
+   "instances": 5
+  },
+  "rug-merged": {
+   "AP50_95": 0.0818181818181818,
+   "AP50": 0.09090909090909097,
+   "instances": 1
+  },
+  "shelf": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 1
+  },
+  "table-merged": {
+   "AP50_95": 0.31330972637601473,
+   "AP50": 0.7200713317110321,
+   "instances": 14
+  },
+  "teddy bear": {
+   "AP50_95": 0.0,
+   "AP50": 0.0,
+   "instances": 1
+  },
+  "toy": {
+   "AP50_95": 0.6834158415841585,
+   "AP50": 0.75,
+   "instances": 3
+  },
+  "tv": {
+   "AP50_95": 0.02524752475247525,
+   "AP50": 0.02805280528052805,
+   "instances": 3
+  },
+  "wall-other-merged": {
+   "AP50_95": 0.5718202589489718,
+   "AP50": 0.7296268088347296,
+   "instances": 4
+  },
+  "wall-wood": {
+   "AP50_95": 0.14049504950495048,
+   "AP50": 0.20198019801980197,
+   "instances": 4
+  },
+  "wallet": {
+   "AP50_95": 0.7410891089108911,
+   "AP50": 0.9158415841584159,
+   "instances": 3
+  },
+  "window-other": {
+   "AP50_95": 0.042857142857142844,
+   "AP50": 0.1428571428571428,
+   "instances": 1
+  },
+  "bed": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "blanket": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "bowl": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "cardboard": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "ceiling-merged": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "clock": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "counter": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "dining table": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "flower": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "food-other-merged": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "fork": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "hair drier": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "handbag": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "knife": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "light": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "microwave": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "mirror-stuff": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "oven": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "pan": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "paper-merged": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "pillow": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "plate": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "potted plant": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "refrigerator": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "remote": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "scissor": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "scissors": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "sink": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "spoon": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "st-": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "stairs": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "stove-merged": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "toaster": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "toilet": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "toothbrush": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "towel": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "trash-bin": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "tree-merged": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "vase": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "wall": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "wall-brick": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "wall-stone": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "wall-tile": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  },
+  "window-blind": {
+   "AP50_95": null,
+   "AP50": null,
+   "instances": 0
+  }
+ }
+}

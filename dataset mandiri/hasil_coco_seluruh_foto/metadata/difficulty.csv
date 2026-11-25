@@ -1,0 +1,37 @@
+﻿file_name,source_file,difficulty,reasons,brightness_factor,instances,note,review_status
+IMG_5062.jpg,IMG_5062.HEIC,sulit,occlusion; truncated_objects,1.0,11,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5063.jpg,IMG_5063.HEIC,sulit,occlusion; truncated_objects,1.0,9,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5064.jpg,IMG_5064.HEIC,sulit,occlusion; truncated_objects; small_objects,1.0,17,Dua gelas menutupi laptop/meja; kursi terpotong bingkai. Sedotan tidak termasuk mask cup.,needs_review
+IMG_5065_lowlight.jpg,IMG_5065.HEIC,sulit,occlusion; truncated_objects; synthetic_low_light,0.5,19,Tas menutupi sofa; meja menutupi bagian kursi. Pantulan pada kaca diabaikan.,needs_review
+IMG_5066.jpg,IMG_5066.HEIC,sulit,occlusion; small_objects,1.0,13,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5110.jpg,IMG_5110.HEIC,sulit,occlusion,1.0,13,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5111.jpg,IMG_5111.HEIC,sulit,occlusion,1.0,9,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5112.jpg,IMG_5112.HEIC,sulit,occlusion; truncated_objects,1.0,7,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5113.jpg,IMG_5113.HEIC,sulit,occlusion; small_objects,1.0,9,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5114.jpg,IMG_5114.HEIC,sulit,occlusion,1.0,9,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5115.jpg,IMG_5115.HEIC,sulit,occlusion,1.0,4,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5116.jpg,IMG_5116.HEIC,sulit,occlusion; truncated_objects,1.0,7,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5117.jpg,IMG_5117.HEIC,sulit,occlusion,1.0,9,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5118.jpg,IMG_5118.HEIC,sulit,occlusion,1.0,7,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5119.jpg,IMG_5119.HEIC,sulit,occlusion; truncated_objects,1.0,9,Keyboard tertutup sebagian monitor; monitor komputer dipetakan ke tv dan perlu konfirmasi semantik.,needs_review
+IMG_5122.jpg,IMG_5122.HEIC,sulit,occlusion,1.0,10,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5123.jpg,IMG_5123.HEIC,sulit,occlusion; truncated_objects,1.0,10,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5124.jpg,IMG_5124.HEIC,sulit,occlusion,1.0,3,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5125.jpg,IMG_5125.HEIC,sulit,occlusion,1.0,4,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5128.jpg,IMG_5128.HEIC,sulit,occlusion; small_objects,1.0,10,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5131.jpg,IMG_5131.HEIC,sulit,occlusion; truncated_objects; small_objects,1.0,22,Tas menutupi kursi; banyak benda kecil. Kabel tidak diberi kelas karena taxonomy tidak memiliki cable.,needs_review
+IMG_5132.jpg,IMG_5132.HEIC,sulit,occlusion,1.0,6,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5133.jpg,IMG_5133.HEIC,sulit,occlusion; small_objects,1.0,14,"Boneka saling menutupi dan buku bertumpuk. Mainan non-beruang memakai toy, beruang memakai teddy bear.",needs_review
+IMG_5134.jpg,IMG_5134.HEIC,sulit,truncated_objects; reflection; low_contrast,1.0,8,Orang dan ruangan pada pantulan TV tidak dianotasi. Orang nyata di tepi kiri tetap dianotasi.,needs_review
+IMG_5135.jpg,IMG_5135.HEIC,normal,,1.0,8,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5136_lowlight.jpg,IMG_5136.HEIC,sulit,occlusion; small_objects; synthetic_low_light,0.5,8,Kursi saling menutupi; APAR hanya terlihat melalui jendela kotak. Bangku dipetakan ke chair (review).,needs_review
+IMG_5137.jpg,IMG_5137.HEIC,sulit,occlusion,1.0,1,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5139.jpg,IMG_5139.HEIC,sulit,occlusion; truncated_objects,1.0,2,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5141_lowlight.jpg,IMG_5141.HEIC,sulit,small_objects; synthetic_low_light,0.5,7,APAR terlihat sebagian melalui kotak; bangku dipetakan ke chair. Brightness versi gelap 50%.,needs_review
+IMG_5142.jpg,IMG_5142.HEIC,normal,,1.0,5,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5143.jpg,IMG_5143.HEIC,normal,,1.0,6,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5144.jpg,IMG_5144.HEIC,sulit,occlusion,1.0,2,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5145.jpg,IMG_5145.HEIC,normal,,1.0,6,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5146.jpg,IMG_5146.HEIC,normal,,1.0,7,Draft tracing manual; objek utama dianotasi. Detail tipis dan kelengkapan latar perlu review.,needs_review
+IMG_5269.jpg,IMG_5269.HEIC,sulit,natural_low_light; truncated_objects,1.0,6,Cahaya rendah alami. Benda bulat di meja tidak diberi kelas karena identitas tidak pasti.,needs_review
+IMG_5270.jpg,IMG_5270.HEIC,sulit,backlight; low_contrast,1.0,4,Tirai dengan cahaya belakang; sisi ruangan lebih gelap. Benda di kanan bawah tidak dipaksakan menjadi kelas tertentu.,needs_review

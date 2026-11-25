@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "images": 36,
+  "annotations": 301,
+  "used_classes": 38,
+  "reference_categories_exact_match": true,
+  "all_masks_decode": true,
+  "area_bbox_verified": true,
+  "image_dimensions_verified": true,
+  "aspect_ratio_preserved": true,
+  "brightness_checks": [
+    {
+      "file_name": "images/IMG_5062.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5063.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5064.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5065_lowlight.jpg",
+      "expected": 0.5,
+      "measured_mean_rgb_ratio": 0.4997
+    },
+    {
+      "file_name": "images/IMG_5066.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5110.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5111.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5112.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5113.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5114.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5115.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5116.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5117.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5118.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5119.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5122.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5123.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5124.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5125.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5128.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5131.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5132.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5133.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5134.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5135.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5136_lowlight.jpg",
+      "expected": 0.5,
+      "measured_mean_rgb_ratio": 0.4998
+    },
+    {
+      "file_name": "images/IMG_5137.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5139.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5141_lowlight.jpg",
+      "expected": 0.5,
+      "measured_mean_rgb_ratio": 0.4998
+    },
+    {
+      "file_name": "images/IMG_5142.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5143.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5144.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5145.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5146.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5269.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    },
+    {
+      "file_name": "images/IMG_5270.jpg",
+      "expected": 1.0,
+      "measured_mean_rgb_ratio": 1.0
+    }
+  ],
+  "counts_by_class": {
+    "backpack": 2,
+    "book": 9,
+    "bottle": 8,
+    "box": 2,
+    "cabinet-merged": 2,
+    "cell phone": 3,
+    "chair": 71,
+    "couch": 5,
+    "cup": 5,
+    "curtain": 3,
+    "door-stuff": 17,
+    "fire-extinguisher": 4,
+    "floor-other-merged": 12,
+    "floor-wood": 1,
+    "flower": 2,
+    "keyboard": 17,
+    "laptop": 9,
+    "light": 2,
+    "mouse": 11,
+    "paper": 6,
+    "person": 4,
+    "plug": 5,
+    "potted plant": 4,
+    "remote": 1,
+    "rug-merged": 2,
+    "shelf": 1,
+    "stairs": 3,
+    "table-merged": 36,
+    "teddy bear": 1,
+    "toy": 3,
+    "trash-bin": 5,
+    "tv": 16,
+    "vase": 2,
+    "wall-other-merged": 10,
+    "wall-wood": 6,
+    "wallet": 5,
+    "window-blind": 2,
+    "window-other": 4
+  },
+  "scope": "Structural validation only. Visual boundaries, class interpretation, and annotation completeness still require human review."
+}

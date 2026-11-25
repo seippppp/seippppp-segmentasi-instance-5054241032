@@ -1,0 +1,6 @@
+model,foto,annotation_id,kelas,iou_025,iou_010,skor,tambahan_mask,overlay
+yolo,IMG_5269.jpg,293,table-merged,0,0.9512,0.1954,5,01_yolo_IMG_5269.jpg
+yolo,IMG_5115.jpg,117,table-merged,0.0,0.919,0.1607,19,02_yolo_IMG_5115.jpg
+maskrcnn,IMG_5142.jpg,270,trash-bin,0,0.9325,0.132,15,03_maskrcnn_IMG_5142.jpg
+maskrcnn,IMG_5065_lowlight.jpg,55,laptop,0,0.8973,0.1086,32,04_maskrcnn_IMG_5065_lowlight.jpg
+rfdetr,IMG_5133.jpg,231,toy,0.0005,0.9636,0.1441,68,05_rfdetr_IMG_5133.jpg

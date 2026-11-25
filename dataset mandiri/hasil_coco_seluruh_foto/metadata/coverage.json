@@ -1,0 +1,10 @@
+{
+  "source_images": 36,
+  "output_images": 36,
+  "annotations": 301,
+  "hard_images": 31,
+  "selected_hard10": 10,
+  "synthetic_low_light": 3,
+  "missing_sources": [],
+  "annotation_status": "draft_needs_review"
+}

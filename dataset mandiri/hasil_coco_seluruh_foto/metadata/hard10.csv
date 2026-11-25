@@ -1,0 +1,11 @@
+﻿image_id,file_name,difficulty_reasons,brightness_factor
+3,images/IMG_5064.jpg,occlusion; truncated_objects; small_objects,1.0
+4,images/IMG_5065_lowlight.jpg,occlusion; truncated_objects; synthetic_low_light,0.5
+15,images/IMG_5119.jpg,occlusion; truncated_objects,1.0
+21,images/IMG_5131.jpg,occlusion; truncated_objects; small_objects,1.0
+23,images/IMG_5133.jpg,occlusion; small_objects,1.0
+24,images/IMG_5134.jpg,truncated_objects; reflection; low_contrast,1.0
+26,images/IMG_5136_lowlight.jpg,occlusion; small_objects; synthetic_low_light,0.5
+29,images/IMG_5141_lowlight.jpg,small_objects; synthetic_low_light,0.5
+35,images/IMG_5269.jpg,natural_low_light; truncated_objects,1.0
+36,images/IMG_5270.jpg,backlight; low_contrast,1.0
