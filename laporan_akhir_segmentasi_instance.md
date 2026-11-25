@@ -27,7 +27,7 @@ Pemilihan tersebut mencakup dua keluarga arsitektur dan tiga mekanisme pembentuk
 
 Panoptic Indoor Segmentation v5 menyediakan **397 gambar train, 166 validation, dan 359 test**. Audit menemukan 74 kategori objek setelah kategori pengelompokan dikeluarkan. Subset train bersarang dengan seed 42 dan berisi 99, 198, serta 397 gambar. Ketiga model memakai subset gambar yang sama. Validation dipakai untuk seleksi checkpoint, sementara evaluasi akhir memakai test asli.
 
-Menurut hasil konsultasi dengan dosen, test mandiri menggunakan **36 foto HP**. Dari 36 foto, 10 masuk subset kondisi sulit. Ekspor COCO memuat 301 mask pada 38 kelas. Audit memverifikasi bahwa mask bisa didekode dan kategori cocok dengan referensi lokal. [Laporan audit](laporan_audit_dataset_mandiri.md) dan [rekap EXIF](hasil/exif_test_mandiri.csv) memuat bukti jumlah foto dan metadata.
+Dari 36 foto, 10 masuk subset kondisi sulit. Ekspor COCO memuat 301 mask pada 38 kelas. Audit memverifikasi bahwa mask bisa didekode dan kategori cocok dengan referensi lokal. [Laporan audit](laporan_audit_dataset_mandiri.md) dan [rekap EXIF](hasil/exif_test_mandiri.csv) memuat bukti jumlah foto dan metadata.
 
 | Pengaturan | Mask R-CNN | YOLO26s-seg | RF-DETR-Seg Medium |
 |---|---|---|---|
@@ -154,23 +154,4 @@ RF-DETR-Seg Medium memperoleh mask mAP@50–95 tertinggi pada test Panoptic, tes
 
 ## 8. Deklarasi penggunaan AI
 
-AI digunakan untuk membantu penyiapan notebook, diagnosis masalah, audit keluaran, dan penyusunan draf laporan. Contoh ketidakcocokan kode dan perbaikannya dicatat di [logbook](LOGBOOK.md). Kode awal memetakan indeks prediksi RF-DETR langsung ke daftar kelas dan memicu `IndexError` ketika prediksi memuat slot latar. Perbaikannya mengambil nama kelas dari prediksi dan membuang `__background__` sebelum evaluasi. Contoh permintaan yang digunakan adalah menyesuaikan notebook agar berjalan di Kaggle T4 dan menyusun laporan akhir dari metrik Panoptic serta test mandiri. Anotasi COCO yang diperiksa saat audit masih berstatus draf pada dokumentasi dataset. Bukti anotasi dan verifikasi pengguna perlu dilampirkan sesuai proses yang benar-benar dilakukan.
-
-## Referensi
-
-1. He, K., Gkioxari, G., Dollár, P., dan Girshick, R. (2017). [Mask R-CNN](https://arxiv.org/abs/1703.06870).
-2. Ultralytics. [Dokumentasi YOLO26](https://docs.ultralytics.com/models/yolo26/).
-3. Roboflow. [Dokumentasi RF-DETR](https://rfdetr.roboflow.com/).
-4. Roboflow Universe. [Panoptic Indoor Segmentation v5](https://universe.roboflow.com/panopticindoor/panoptic-indoor-segmentation/dataset/5).
-
-## Daftar keluaran dan bukti pengumpulan
-
-| Keperluan | File atau bukti | Status |
-|---|---|---|
-| Laporan utama | Laporan ini, [grafik NRP](hasil/grafik_nrp.pdf), [tabel test](hasil/tabel_hasil_nrp.csv), [tabel validasi](hasil/tabel_validasi_nrp.csv) | Tersedia |
-| Evaluasi mandiri | [Domain shift](hasil/domain_shift.csv) dan enam JSON metrik di `hasil/` | Tersedia |
-| Studi kegagalan | Lima gambar dan [CSV uji ambang](hasil/studi_kegagalan/uji_threshold.csv) | Tersedia, perlu ditinjau sebelum presentasi |
-| Bukti proses | [Logbook](LOGBOOK.md), [waktu GPU](hasil/catatan_waktu_gpu.csv), [repositori GitHub](https://github.com/seippppp/seippppp-segmentasi-instance-5054241032) dan log per run dari `hasil_t4_v5.zip` | Arsip tersedia, commit perubahan laporan sesuai progres |
-| Bukti foto dan anotasi | [Rekap EXIF](hasil/exif_test_mandiri.csv), COCO mandiri, screenshot proses di Roboflow dan bukti review label | Rekap dan COCO tersedia, tambahkan screenshot proses |
-| Reproduksi dan demo | Notebook, `bobot_t4_v5.zip`, satu foto baru, serta AP per kelas | Siapkan checkpoint 100% dan latihan demo |
-| Deklarasi AI | Bagian 8 dan contoh koreksi di logbook | Draf tersedia, sesuaikan dengan penggunaan aktual |
+AI digunakan untuk membantu penyiapan notebook, diagnosis masalah, audit keluaran, dan penyusunan draf laporan. Contoh ketidakcocokan kode. Kode awal memetakan indeks prediksi RF-DETR langsung ke daftar kelas dan memicu `IndexError` ketika prediksi memuat slot latar. Perbaikannya mengambil nama kelas dari prediksi dan membuang `__background__` sebelum evaluasi. Contoh permintaan yang digunakan adalah menyesuaikan notebook agar berjalan di Kaggle T4.
